@@ -1,11 +1,13 @@
 package io.leetCode.solutions;
 
+import io.leetCode.solutions.hakerrank.BirthdayCakeCandles;
 import io.leetCode.solutions.hakerrank.MinMaxSum;
 import io.leetCode.solutions.hakerrank.PlusMinus;
 import io.leetCode.solutions.problems.DiagonalDifference;
 import io.leetCode.solutions.problems.EditDistanceSolution;
 import io.leetCode.solutions.problems.SimplifyPathSolution;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.boot.BootstrapContext;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -22,6 +24,7 @@ public class App implements CommandLineRunner {
     DiagonalDifference diagonalDifference = new DiagonalDifference();
     PlusMinus plusMinus = new PlusMinus();
     MinMaxSum minMaxSum = new MinMaxSum();
+    BirthdayCakeCandles cakeCandles = new BirthdayCakeCandles();
 
     List<List<Integer>> integerList = Arrays.asList(
             Arrays.asList(11, 2, 4),
@@ -42,5 +45,6 @@ public class App implements CommandLineRunner {
 //        plusMinus.plusMinusMethod(arr);
         List<Integer> list = Arrays.asList(1,3,5,7,9);
         minMaxSum.miniMaxSumMethod(list);
+        cakeCandles.birthdayCakeCandles(arr);
     }
 }
