@@ -1,13 +1,12 @@
 package io.leetCode.solutions;
 
-import io.leetCode.solutions.hakerrank.BirthdayCakeCandles;
-import io.leetCode.solutions.hakerrank.MinMaxSum;
-import io.leetCode.solutions.hakerrank.PlusMinus;
+import io.leetCode.solutions.hackerrank.algo.warmup.BirthdayCakeCandles;
+import io.leetCode.solutions.hackerrank.algo.warmup.MinMaxSum;
+import io.leetCode.solutions.hackerrank.algo.warmup.PlusMinus;
 import io.leetCode.solutions.problems.DiagonalDifference;
 import io.leetCode.solutions.problems.EditDistanceSolution;
 import io.leetCode.solutions.problems.SimplifyPathSolution;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.boot.BootstrapContext;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

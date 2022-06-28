@@ -1,4 +1,4 @@
-package io.leetCode.solutions.hakerrank;
+package io.leetCode.solutions.hackerrank.algo.warmup;
 
 import lombok.extern.slf4j.Slf4j;
 
